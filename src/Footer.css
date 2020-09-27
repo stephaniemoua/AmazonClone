@@ -1,0 +1,23 @@
+.footer {
+  color: white;
+  background-color: #3c4759;
+  height: 42px;
+  text-align: center;
+}
+
+.footer__text {
+  font-size: 13px;
+  line-height: 0px;
+  padding-bottom: 10px;
+}
+
+.footer:hover {
+  font-weight: bold;
+  font-size: 125%;
+}
+
+.footer__icon:hover, .footer__text:hover
+{
+  cursor: pointer;
+  background-color: #596880 !important;
+}
